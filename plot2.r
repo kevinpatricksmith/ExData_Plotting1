@@ -2,7 +2,7 @@
 # Reading the data and selecting a subset
 ##########################################
 
-dataFileName <- "C:\\Devel\\R\\Exploratory\\Proj1\\ExData_Plotting1\\household_power_consumption.txt"
+dataFileName <- "household_power_consumption.txt"
 hpc <- read.delim(dataFileName, sep=";", na.strings=c("?"))
 
 # We are only interested in data for two dates
